@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parentViewQucikManageEventRegn"
+    android:layout_height="match_parent"
+    tools:context=".Organizers.QuickManageMyEventRegistration">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Manage Registration"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="26dp"
+            android:fontFamily="serif"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/pnameT"
+            android:layout_marginTop="20dp"
+            android:text="Participant Name: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/pemailT"
+            android:layout_marginTop="5dp"
+            android:text="Participant Email: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/puidT"
+            android:layout_marginTop="5dp"
+            android:text="Participant UID: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/pphoneT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="serif"
+            android:text="Participant Phone: "
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/eventidT"
+            android:layout_marginTop="5dp"
+            android:text="Event ID: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/pPaymentStatusT"
+            android:layout_marginTop="5dp"
+            android:text="Payment Status: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/pfeeT"
+            android:layout_marginTop="5dp"
+            android:text="Registration fee: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/pteamT"
+            android:layout_marginTop="5dp"
+            android:text="Teammates: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/pregtokenT"
+            android:layout_marginTop="5dp"
+            android:text="Registration Token: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:id="@+id/pdataT"
+            android:layout_marginTop="5dp"
+            android:text="Registration Data: "
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="1dp"
+            android:background="#9e9e9e" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/selectTypeOfEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/sendEmailToT"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:text="Send Email"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/confirmParticipationT"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:text="Confirm Participation"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/cancelParticiapationT"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorAccent"
+            android:text="Delete Registration"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</ScrollView>

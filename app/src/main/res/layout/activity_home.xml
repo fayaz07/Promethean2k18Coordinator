@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/homeParentLayout"
+    android:layout_height="match_parent"
+    tools:context=".General.Home">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:id="@+id/statistics_page"
+            app:cardBackgroundColor="#5ef734"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:text="Promethean Statistics"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/manage_event_registrations"
+            app:cardBackgroundColor="@color/blue"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="Manage Event Registrations"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/confirm_registrations"
+            app:cardBackgroundColor="@color/green"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            android:visibility="gone"
+            app:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:text="Confirm participation"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paymentsTeam"
+            app:cardBackgroundColor="#3faba3"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:text="Payments Team"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+        <Button
+            android:id="@+id/sendMAilsMAn"
+            android:text="sendMailsMan"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/LunchKitsManage"
+            app:cardBackgroundColor="#a429d9"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:text="Lunch and Kits"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/scanner"
+            android:text="Scanner"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>

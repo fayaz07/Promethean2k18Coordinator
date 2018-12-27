@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Promethean 2k18 Coordinator</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="year">
+        <item>I Year</item>
+        <item>II Year</item>
+        <item>III Year</item>
+        <item>IV Year</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="dept">
+        <item>CSE</item>
+        <item>CHE</item>
+        <item>IT</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>MEC</item>
+        <item>PHE</item>
+        <item>BME</item>
+        <item>CIV</item>
+        <item>MBA</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="eventids">
+        <item>	1001	</item>
+        <item>	2001	</item>
+        <item>	3001	</item>
+        <item>	4001	</item>
+        <item>	7001	</item>
+        <item>	1	</item>
+        <item>	2	</item>
+        <item>	3	</item>
+        <item>	4	</item>
+        <item>	5	</item>
+        <item>	6	</item>
+        <item>	7	</item>
+        <item>	8	</item>
+        <item>	9	</item>
+        <item>	10	</item>
+        <item>	11	</item>
+        <item>	12	</item>
+        <item>	13	</item>
+        <item>	14	</item>
+        <item>	15	</item>
+        <item>	16	</item>
+        <item>	17	</item>
+        <item>	18	</item>
+        <item>	19	</item>
+        <item>	20	</item>
+        <item>	21	</item>
+        <item>	22	</item>
+        <item>	23	</item>
+        <item>	24	</item>
+        <item>	25	</item>
+        <item>	26	</item>
+        <item>	27	</item>
+        <item>	28	</item>
+        <item>	29	</item>
+        <item>	30	</item>
+        <item>	31	</item>
+        <item>	32	</item>
+        <item>	33	</item>
+        <item>	34	</item>
+        <item>	35	</item>
+        <item>	36	</item>
+        <item>	37	</item>
+        <item>	38	</item>
+        <item>	39	</item>
+        <item>	40	</item>
+        <item>	41	</item>
+        <item>	42	</item>
+        <item>	43	</item>
+        <item>	44	</item>
+        <item>	45	</item>
+        <item>	46	</item>
+        <item>	47	</item>
+        <item>	48	</item>
+    </string-array>
+    <string-array name="eventNames">
+        <item>	Hackthon on Smart City Technologies	</item>
+        <item>	Poster Presentation	</item>
+        <item>	Project Expo	</item>
+        <item>	Ideation	</item>
+        <item>	Animethon	</item>
+        <item>	IoT through Python	</item>
+        <item>	Xenium	</item>
+        <item>	Blockchain through crypto	</item>
+        <item>	CODEATHON	</item>
+        <item>	Cyber security workshop	</item>
+        <item>	Techracy	</item>
+        <item>	CODE CRUNCH	</item>
+        <item>	Fast and furious	</item>
+        <item>	Big data And Hadoop	</item>
+        <item>	Code Conflicts	</item>
+        <item>	HAPTICS - A ROBOTIC ARM WORKSHOP	</item>
+        <item>	PHYSIC-SENSE	</item>
+        <item>	DIGI-WISSEN	</item>
+        <item>	ELECTROWIZARD	</item>
+        <item>	SOLAR WORKSHOP	</item>
+        <item>	CRACK-IT-UP	</item>
+        <item>	Catch The Catch	</item>
+        <item>	WORD WRECKER	</item>
+        <item>	MedTech Orator	</item>
+        <item>	Ad-Zap	</item>
+        <item>	Mystic code	</item>
+        <item>	BIZZ ENIGMA (Business Quiz)	</item>
+        <item>	YOUNG MANAGER	</item>
+        <item>	DEBATE(Battle of the Brains)	</item>
+        <item>	Computer Aided Designing or Drafting	</item>
+        <item>	STARTUP CEO	</item>
+        <item>	Chemcode	</item>
+        <item>	Quest-ion	</item>
+        <item>	CHEM HUNT	</item>
+        <item>	Techno Vanza	</item>
+        <item>	CIRCUIT INNOVATION CHALLENGE	</item>
+        <item>	RF DESIGN	</item>
+        <item>	ARDOPHRENIA	</item>
+        <item>	TECH QUIZ	</item>
+        <item>	INTERNET OF THINGS, an ARDUINO based workshop	</item>
+        <item>	ARDUBOTICS ROBOTICS workshop	</item>
+        <item>	SRUSHTI(AUTOCAD WORKSHOP)	</item>
+        <item>	CIVIL CRAFT	</item>
+        <item>	QUICK SURVEY	</item>
+        <item>	RESTRICT TO METER	</item>
+        <item>	STAADPRO (WORKSHOP)	</item>
+        <item>	TECHNICAL QUIZ	</item>
+        <item>	MECHMANIA	</item>
+        <item>	KEY TO CREATE	</item>
+        <item>	Clumsy scientist	</item>
+        <item>	Guess me if u can	</item>
+        <item>	Sherlocked	</item>
+        <item>	Product design	</item>
+    </string-array>
+
+
+</resources>

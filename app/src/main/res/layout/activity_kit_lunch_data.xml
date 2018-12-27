@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentLayoutKitLunch"
+    tools:context=".KitLunchData">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Lunch and Participation Kit"
+            android:layout_marginTop="20dp"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/participant_nameNNN"
+            android:text="Name: "
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/statusOfLunchDay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Lunch: "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/participationKit"
+            android:text="Participation Kit: "
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/lunchDay1Taken"
+            android:layout_marginTop="10dp"
+            android:text="Lunch Day 1 taken"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/lunchDay2Taken"
+            android:layout_marginTop="10dp"
+            android:text="Lunch Day 2 taken"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/kitrecieved"
+            android:layout_marginTop="10dp"
+            android:text="Kit recieved"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/resetStats"
+            android:layout_marginTop="10dp"
+            android:text="Reset"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/Scan"
+            android:layout_marginTop="10dp"
+            android:text="Scan"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</RelativeLayout>

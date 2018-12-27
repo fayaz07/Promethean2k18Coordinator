@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="green">#28dc43</color>
+    <color name="purple">#8732ed</color>
+    <color name="violet">#a224d9</color>
+    <color name="orange">#f47e1d</color>
+    <color name="blue">#2171e2</color>
+    <color name="github_color">#333333</color>
+</resources>
